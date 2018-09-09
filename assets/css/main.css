@@ -3208,7 +3208,7 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			background-color: #212931;
-			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/couple.png");
+			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(140, 140, 140, 0.1)), url("../../images/couple.png");
 			background-size: auto,								auto,														75% auto;
 			background-position: center,								center,														center;
 			background-repeat: repeat,								no-repeat,													no-repeat;
@@ -3250,7 +3250,7 @@ input, select, textarea {
 		@media screen and (orientation: portrait) {
 
 			#wrapper > .bg {
-				background-size: auto,								auto,														auto 175%;
+				background-size: auto,								auto,														75% auto;
 			}
 
 		}
@@ -3285,6 +3285,10 @@ input, select, textarea {
 		text-align: center;
 		z-index: 1;
 		min-height: 100vh;
+	}
+
+	#intro .subtitle {
+		color: rgb(154, 205, 50);
 	}
 
 		#intro input, #intro select, #intro textarea {
@@ -3462,6 +3466,12 @@ input, select, textarea {
 					display: none;
 				}
 
+				#wrapper > .bg {
+					background-position: center,								center,														50% 4rem;
+					/* background-size: auto,								auto,														95% auto; */
+
+				}
+
 		}
 
 	#opening {
@@ -3562,8 +3572,8 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#header {
-				height: 14rem;
-				padding-bottom: 4rem;
+				height: 20rem;
+				padding-bottom: 7rem;
 			}
 
 		}
@@ -3571,7 +3581,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#header {
-				padding-bottom: 3rem;
+				padding-bottom: 7rem;
 			}
 
 				#header .logo {
